@@ -1,0 +1,16 @@
+train_net: "/home/wangyukang/caffe/examples/Speaker-Recognition/train.prototxt"
+test_net: "/home/wangyukang/caffe/examples/Speaker-Recognition/test.prototxt"
+test_iter: 108
+test_interval: 999999
+base_lr: 1e-4
+display: 20
+max_iter: 10000
+lr_policy: "fixed"
+momentum: 0.949999988079
+weight_decay: 0.000500000023749
+snapshot: 2000
+snapshot_prefix: "/home/wangyukang/caffe/examples/Speaker-Recognition/snapshot/train"
+solver_mode: GPU
+test_initialization: false
+average_loss: 20
+iter_size: 32
